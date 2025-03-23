@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__logo {
+        width: 250px;
+
+        img {
+            width: 100%;
+        }
+
+    }
+
+    &__official {
+        color: #fff;
+        font-size: 12px;
+        text-align: center;
+        font-weight: 500;
+        line-height: 12px;
+
+        span {
+            margin-top: 4px;
+            display: block;
+            font-size: 18px;
+            line-height: 28px
+        }
+    }
+
+    &__phone {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 18px;
+        text-transform: none;
+        display: block;
+        text-decoration: none;
+        margin-bottom: 4px;
+
+        &:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+    }
+
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+}

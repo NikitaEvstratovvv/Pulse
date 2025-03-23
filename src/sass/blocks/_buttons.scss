@@ -1,0 +1,22 @@
+.button {
+    width: 160px;
+    height: 32px;
+    border-radius: 6px;
+    background-color: $main-color;
+    border: none;
+
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+
+    &_main {
+        margin-top: 64px;
+        width: 300px;
+        height: 48px;
+        background-color: $main-color;
+
+        font-size: 16px;
+    }
+}
