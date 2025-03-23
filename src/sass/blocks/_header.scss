@@ -13,7 +13,7 @@
     }
 
     &__official {
-        color: #fff;
+        color: $white;
         font-size: 12px;
         text-align: center;
         font-weight: 500;
@@ -28,7 +28,7 @@
     }
 
     &__phone {
-        color: #fff;
+        color: $white;
         font-size: 18px;
         font-weight: 700;
         line-height: 18px;
@@ -38,7 +38,7 @@
         margin-bottom: 4px;
 
         &:hover {
-            color: #fff;
+            color: $white;
             text-decoration: none;
         }
     }
