@@ -16,8 +16,15 @@
 
             <header class="header">
                 <a class="header__logo">
-                    <img src="Img/running-man-2-64.png" alt="logo">
+
+                    <picture>
+                        <source media="(max-width: 1023px)" srcset="Img/running-man-2-square.png">
+                        <!-- Для десктопов (по умолчанию) -->
+                        <img src="Img/running-man-2-64.png" alt="logo" class="header__logo_laptop">
+                    </picture>
+
                 </a>
+
                 <div class="header__official">
                     Официальный представитель
                     <span>Garmin, Polar, Suunto</span>

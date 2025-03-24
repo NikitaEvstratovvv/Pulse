@@ -4,6 +4,7 @@
     border-radius: 6px;
     background-color: $main-color;
     border: none;
+    padding: 0px 16px;
 
     color: $white;
     font-size: 12px;
@@ -18,5 +19,9 @@
         background-color: $main-color;
 
         font-size: 16px;
+    }
+
+    @media screen and (max-width: 480px) {
+        width: 100%;
     }
 }

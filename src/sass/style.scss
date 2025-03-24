@@ -7,6 +7,14 @@
 .container {
     max-width: 950px;
     margin: 0 auto;
+
+    @media screen and (max-width: 1024px) {
+        margin: 0px 40px
+    }
+
+    @media screen and (max-width: 560px) {
+        margin: 0px 16px
+    }
 }
 
 @import 'blocks/promo';
